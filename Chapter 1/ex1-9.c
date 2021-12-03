@@ -16,10 +16,5 @@ int main(void){
         putchar(c);
       }
     }
-
   }
-
-
-
-
 }
