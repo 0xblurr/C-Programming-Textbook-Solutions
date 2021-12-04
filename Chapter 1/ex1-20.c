@@ -7,7 +7,7 @@ int main(void) {
     int count = 0;
 
     while((c = getchar()) != EOF){
-        int space = TAB - (count % TAB);   //https://stackoverflow.com/a/26692695/17590249
+        int space = TAB - (count % TAB);   //Credit for this line: https://stackoverflow.com/a/26692695/17590249
         if(c == '\t'){
             for(int i = 0; i < space; i++)
                 putchar(' ');
