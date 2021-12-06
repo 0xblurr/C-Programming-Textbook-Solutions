@@ -1,5 +1,6 @@
 #include<stdio.h>
 #define TAB 4  //number of spaces per tab stop
+#define SPACETAB 4 //spaces per tab
 
 int main(void){
     
@@ -19,7 +20,7 @@ int main(void){
                     putchar(' ');
                     putchar(c);
                     i = space;
-                }else if(countSpaces == 4){
+                }else if(countSpaces == SPACETAB){
                     countSpaces = 0;
                     putchar('\t');
                 }else{
