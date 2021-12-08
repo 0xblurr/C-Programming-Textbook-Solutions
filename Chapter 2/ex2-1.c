@@ -13,7 +13,9 @@ int main(void){
     printf("Unsigned long: [%d , %d]\n", 0, ULONG_MAX);
     printf("Signed long: [%d , %d]\n", LONG_MIN, LONG_MAX);
 
-    /*Not sure how to compute the above values. I will return to add once I figure that out.*/
+    /*Not sure how to compute the above values. I will return to add once I figure that out.
+    This solution would be straighforward if we had access to the sizeof() function. However,
+    I am trying to restrict myself to only the concepts presented in the book up to this point*/
 
 
 
