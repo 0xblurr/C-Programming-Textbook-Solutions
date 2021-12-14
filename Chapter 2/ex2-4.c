@@ -3,7 +3,7 @@
 
 
 void squeeze(char s1[], char s2[]);
-int getline(char s[], int lim);
+
 
 int main(void){
 
