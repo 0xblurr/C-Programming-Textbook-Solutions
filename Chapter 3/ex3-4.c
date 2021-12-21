@@ -10,7 +10,7 @@ void copy(char from[], char to[]);
 
 int main(void){
 
-    int n = 785;
+    int n = 651;
     char str[MAXLENGTH];
 
     itoa(n, str);
