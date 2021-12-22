@@ -22,14 +22,14 @@ int main(void){
             case NUMBER:
                 push(atof(s));
                 break;
-            case 'r':
+            case 'r':               /*sin*/
                 push(sin(pop()));
                 break;
-            case 'x':
+            case 'x':                       /*e to the power of x*/
                 int expo = pop();
                 push(pow(pop(), expo));
                 break;
-            case 'e':
+            case 'e':                       /*exponentation*/
                 push(exp(pop()));
                 break;
             case '+':
