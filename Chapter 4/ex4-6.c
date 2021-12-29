@@ -141,7 +141,7 @@ int getop(char s[]){
         var = c;
         return GETVAR;
     }
-    if (!isdigit(c) && c != '.')
+    if (!isdigit(c) && c != '.' && c != '-')
         return c; /* not a number */
         
     if(c == '-'){
