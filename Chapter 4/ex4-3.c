@@ -101,9 +101,6 @@ int getop(char s[]){
         s[i] = c;
         ungetch(c = next);
     }
-    else{
-        c = getch();
-    }  
     if (isdigit(c)) /* collect integer part */
         while (isdigit(s[++i] = c = getch()))
             ;
