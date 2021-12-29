@@ -31,11 +31,7 @@ int main(void){
                 push(atof(s));
                 break;
             case '+':
-                int op1;
-                op1 = pop();
-                int OP2 = pop();
-                printf("op1: %d op2: %d\n", op1, OP2);
-                push(op1 + OP2);
+                push(pop() + pop());
                 break;
             case '*':
                 push(pop() * pop());
